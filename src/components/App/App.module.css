@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* або будь-яка інша висота */
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Додайте стилі для вашого лоадера */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Півпрозоре затемнення */
+  z-index: 999; /* Щоб затемнення було вище за інші елементи */
+}
+
+.none {
+  display: none;
+}
